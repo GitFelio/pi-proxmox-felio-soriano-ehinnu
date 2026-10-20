@@ -1,6 +1,6 @@
 # Proyecto Intermodular: nodo Proxmox individual
 
-Alumno/a: felio_soriano_ehinnu
+Alumno/a: apellido_nombre
 
 URL GitHub: PENDIENTE
 

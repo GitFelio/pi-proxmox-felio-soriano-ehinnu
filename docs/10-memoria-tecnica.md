@@ -1,21 +1,69 @@
-# Memoria técnica: nodo Proxmox individual
+# Memoria tecnica: nodo Proxmox individual
 
-La memoria presenta el resultado técnico por temas. Debe explicar cómo está construido el laboratorio, por qué se tomaron las decisiones y con qué pruebas se demostró su funcionamiento. Usa la bitácora como fuente, pero no copies el diario completo: resume la configuración final, los resultados y las limitaciones que sigan abiertas.
+La memoria presenta el resultado tecnico por temas. Debe explicar como esta
+construido el laboratorio, por que se tomaron las decisiones y con que pruebas
+se demostro su funcionamiento. Usa la bitacora como fuente, pero no copies el
+diario completo: resume la configuracion final, los resultados y las
+limitaciones que sigan abiertas.
 
 ## Resumen
 
-Este proyecto consiste en el diseño, instalación y configuración de un nodo de virtualización utilizando Proxmox VE. El objetivo es desplegar una infraestructura base capaz de alojar máquinas virtuales y contenedores para centralizar servicios de red corporativos, aplicando automatización y estrategias de respaldo.
+PENDIENTE: describir en un parrafo que se va a construir, para quien y con que
+resultado esperado. Revisar este resumen al cerrar el proyecto.
 
 ## Necesidad y objetivos
 
-Necesidad que atiende el laboratorio: Se requiere consolidar múltiples servicios en un único servidor físico para optimizar los recursos de hardware, facilitar la gestión centralizada de copias de seguridad y crear un entorno aislado y seguro para el despliegue de servicios ASO.
+Necesidad que atiende el laboratorio: PENDIENTE.
 
-- Objetivo comprobable 1: Instalar y configurar correctamente el hipervisor Proxmox VE, garantizando el acceso a su panel de administración web.
-- Objetivo comprobable 2: Crear y desplegar plantillas base de sistemas Linux y configurar un servicio de red funcional (como Samba) accesible desde un cliente.
-- Objetivo comprobable 3: Automatizar tareas de mantenimiento, como la generación de inventarios y copias de seguridad, mediante scripts en Bash y Ansible.
+- Objetivo comprobable 1: PENDIENTE.
+- Objetivo comprobable 2: PENDIENTE.
+- Objetivo comprobable 3: PENDIENTE.
 
-## Alcance y criterios de aceptación
+## Alcance y criterios de aceptacion
 
-El proyecto abarca la instalación de Proxmox en un único nodo (físico o virtualizado), la configuración de la red interna, el despliegue de máquinas virtuales/contenedores, la implementación de un servicio ASO y su automatización. 
+PENDIENTE: indicar que incluye el proyecto, que queda fuera y que pruebas
+permitiran considerar aceptado cada resultado principal.
 
-Quedan fuera del alcance las configuraciones de Alta Disponibilidad (HA) que requieren múltiples nodos físicos, así como la integración con cabinas de almacenamiento en red complejo (SAN). El proyecto se considerará aceptado cuando el profesor pueda verificar el acceso a los servicios documentados y la correcta ejecución de los scripts de respaldo.
+## Modalidad e inventario
+
+[Inventario](01-inventario-hardware.md)
+
+## Diseno de red
+
+[Diagrama y direccionamiento](02-diagrama-red.md)
+
+## Instalacion y configuracion de Proxmox
+
+[Procedimiento](03-instalacion-proxmox.md)
+
+## Plantilla Linux y despliegue
+
+[Plantilla](04-plantilla-linux.md) y [VMs/LXC](05-vms-lxc.md)
+
+## Servicio ASO
+
+[Instalacion y pruebas](06-servicio-aso.md)
+
+## Automatizacion con Bash y Ansible
+
+[Automatizacion](07-automatizacion.md)
+
+## Copias y restauracion
+
+[Procedimiento y validacion](08-copias-restauracion.md)
+
+## Rendimiento y seguridad
+
+[Resultados](09-rendimiento-seguridad.md)
+
+## Incidencias y decisiones
+
+[Bitacora](00-bitacora.md)
+
+## Presupuesto y sostenibilidad
+
+## Conclusiones
+
+## Fuentes y anexos
+
+[Evidencias](../evidencias/README.md) y [volver al indice](../README.md)
